@@ -1,7 +1,7 @@
 raytracer.js
 ============
 
-raytracer.js is a simple raytracer for the Phong shading model implemented in JS. 
+raytracer.js is a simple raytracer for the Phong shading model implemented in JS. For more information see [here](http://www.christophschuette.com/blog/?p=134).
 
 ### dependencies ###
 * [require.js](http://requirejs.org/)
