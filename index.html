@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>RayTracer</title>
+ <link rel="stylesheet" href="bower_components/jqueryui/themes/smoothness/jquery-ui.css">
+ <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<table border="0">
+	<tr>
+	<th>Object</th>
+    <th>R</th>
+    <th>G</th>
+    <th>B</th>
+    <th>Reflectivity</th>
+	</tr>
+  <tr>
+    <td>Sphere #1:</td>
+    <td><input id="color1R" type="text" size="3" maxlength="3" value="0"></td>
+    <td><input id="color1G" type="text" size="3" maxlength="3" value="0"></td>
+    <td><input id="color1B" type="text" size="3" maxlength="3" value="0"></td>
+    <td><input id="reflect1" type="text" size="3" maxlength="3" value="0.4"></td>
+  </tr>
+<tr>
+    <td>Sphere #2:</td>
+    <td><input id="color2R" type="text" size="3" maxlength="3" value="0"></td>
+    <td><input id="color2G" type="text" size="3" maxlength="3" value="255"></td>
+    <td><input id="color2B" type="text" size="3" maxlength="3" value="0"></td>
+    <td><input id="reflect2" type="text" size="3" maxlength="3" value="0.3"></td>
+</tr>
+<tr>
+    <td>Sphere #3:</td>
+    <td><input id="color3R" type="text" size="3" maxlength="3" value="255"></td>
+    <td><input id="color3G" type="text" size="3" maxlength="3" value="255"></td>
+    <td><input id="color3B" type="text" size="3" maxlength="3" value="255"></td>
+    <td><input id="reflect3" type="text" size="3" maxlength="3" value="0.5"></td></tr>
+<tr>
+    <td>Ground:</td>
+    <td><input id="colorGR" type="text" size="3" maxlength="3" value="255"></td>
+    <td><input id="colorGG" type="text" size="3" maxlength="3" value="255"></td>
+    <td><input id="colorGB" type="text" size="3" maxlength="3" value="255"></td>
+    <td><input id="reflectG" type="text" size="3" maxlength="3" value="0.3"></td>
+</tr>
+<tr>
+<td colspan = "5">
+<input name="render" type="submit" value="Render scene">
+</td>
+</tr>
+</table>
+<br/><br/>
+<canvas id="canvas" width="640px" height="480px"><br />
+</canvas>
+<script data-main="js/main" src="bower_components/requirejs/require.js"></script>
+<script>
+</script>
+</body>
+</html>
