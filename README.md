@@ -15,6 +15,6 @@ The project relies on the following dependencies:
 * [jquery-ui](http://jqueryui.com/) (only for user interface)
 
 ### sample output ###
-Here is sample output; a [live](http://www.christophschuette.com/playground/raytracer/) demo can be found [here](http://www.christophschuette.com/playground/raytracer/).
+A [live](http://www.christophschuette.com/playground/raytracer/) demo can be found [here](http://www.christophschuette.com/playground/raytracer/); sample output:
 
 <img src="http://www.christophschuette.com/blog/wp-content/uploads/2014/05/render-300x225.png" alt="rendered scene"></img>
