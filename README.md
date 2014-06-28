@@ -16,4 +16,5 @@ The project relies on the following dependencies:
 
 ### sample output ###
 Here is sample output; a [live](http://www.christophschuette.com/playground/raytracer/) demo can be found [here](http://www.christophschuette.com/playground/raytracer/).
+
 <img src="http://www.christophschuette.com/blog/wp-content/uploads/2014/05/render-300x225.png" alt="rendered scene"></img>
