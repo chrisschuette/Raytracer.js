@@ -1,3 +1,5 @@
+<img src="http://www.christophschuette.com/blog/wp-content/uploads/2014/05/render-300x225.png" alt="rendered scene"></img>
+
 Raytracer.js
 ============
 
